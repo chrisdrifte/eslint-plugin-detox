@@ -2,7 +2,7 @@
   "name": "eslint-plugin-detox",
   "version": "1.0.0",
   "description": "ESLint environment for wix/detox",
-  "homepage": "https://github.com/hammadj/eslint-plugin-detox",
+  "homepage": "https://github.com/chrisdrifte/eslint-plugin-detox",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -11,7 +11,7 @@
     "detox",
     "react-native"
   ],
-  "author": "Hammad Jutt",
+  "author": "Chris Drifte",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests --recursive"
