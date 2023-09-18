@@ -5,6 +5,10 @@
 "use strict";
 
 module.exports = {
+  meta: {
+    name: "eslint-plugin-detox",
+    version: "1.0.0",
+  },
   environments: {
     detox: {
       globals: {
