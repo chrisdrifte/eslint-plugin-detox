@@ -12,7 +12,7 @@
     "react-native"
   ],
   "author": "Chris Drifte",
-  "main": "lib/index.js",
+  "main": "index.js",
   "peerDependencies": {
     "eslint": ">=0.8.0"
   },
