@@ -13,8 +13,8 @@
   ],
   "author": "Chris Drifte",
   "main": "lib/index.js",
-  "devDependencies": {
-    "eslint": "~8.49.0"
+  "peerDependencies": {
+    "eslint": ">=0.8.0"
   },
   "engines": {
     "node": ">=0.10.0"
