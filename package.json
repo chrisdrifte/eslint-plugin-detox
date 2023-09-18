@@ -12,12 +12,21 @@
     "react-native"
   ],
   "author": "Chris Drifte",
+  "license": "ISC",
   "main": "index.js",
-  "peerDependencies": {
-    "eslint": ">=0.8.0"
+  "scripts": {
+    "test": "node index.test.js",
+    "lint": "eslint --ext .js ."
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
   },
-  "license": "ISC"
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-plugin-eslint-plugin": "^5.1.1",
+    "eslint-plugin-n": "^16.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=0.8.0"
+  }
 }
