@@ -14,7 +14,7 @@
   "author": "Chris Drifte",
   "main": "lib/index.js",
   "devDependencies": {
-    "eslint": "~3.9.1"
+    "eslint": "~8.49.0"
   },
   "engines": {
     "node": ">=0.10.0"
