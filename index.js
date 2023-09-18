@@ -6,7 +6,7 @@
 
 module.exports = {
   meta: {
-    name: "eslint-plugin-detox",
+    name: "eslint-plugin-wix-detox",
     version: "1.0.0",
   },
   environments: {

@@ -1,4 +1,4 @@
-# eslint-plugin-detox
+# eslint-plugin-wix-detox
 
 ESLint environment for wix/detox
 
@@ -12,15 +12,15 @@ OR
 $ yarn add eslint --dev
 ```
 
-Next, install `eslint-plugin-detox`:
+Next, install `eslint-plugin-wix-detox`:
 
 ```
-$ npm install eslint-plugin-detox --save-dev
+$ npm install eslint-plugin-wix-detox --save-dev
 OR
-$ yarn add eslint-plugin-detox --dev
+$ yarn add eslint-plugin-wix-detox --dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-detox` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-wix-detox` globally.
 
 ## Usage
 
@@ -28,16 +28,12 @@ Add `detox` to the plugins section of your `.eslintrc` configuration file. You c
 
 ```json
 {
-    "plugins": [
-        "detox"
-    ]
+  "plugins": ["wix-detox"]
 }
 ```
 
 Add the following line to the top of your detox test files:
+
 ```
-/* eslint-env detox/detox, mocha */
+/* eslint-env detox/detox, jest */
 ```
-
-
-

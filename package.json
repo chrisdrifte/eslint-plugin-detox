@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-detox",
+  "name": "eslint-plugin-wix-detox",
   "version": "1.0.0",
   "description": "ESLint environment for wix/detox",
   "homepage": "https://github.com/chrisdrifte/eslint-plugin-detox",
@@ -8,6 +8,7 @@
     "eslintplugin",
     "eslint-plugin",
     "eslint-plugin-detox",
+    "eslint-plugin-wix-detox",
     "detox",
     "react-native"
   ],
