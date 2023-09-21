@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-wix-detox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint environment for wix/detox",
   "homepage": "https://github.com/chrisdrifte/eslint-plugin-detox",
   "keywords": [
