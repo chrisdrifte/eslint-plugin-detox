@@ -1,6 +1,6 @@
 # eslint-plugin-wix-detox
 
-ESLint environment for wix/detox
+Modern replacement for eslint-plugin-detox with the new "web" global.
 
 ## Installation
 
@@ -35,5 +35,5 @@ Add `detox` to the plugins section of your `.eslintrc` configuration file. You c
 Add the following line to the top of your detox test files:
 
 ```
-/* eslint-env detox/detox, jest */
+/* eslint-env wix-detox/detox, jest */
 ```
